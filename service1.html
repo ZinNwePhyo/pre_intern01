@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <style>
+             .container{
+                width:100%;
+                height:100%;
+            }
+            .header{
+                background-color: darkgreen;
+                width:100%;
+                height:20%;
+                position:absolute;
+                top:0;
+                left: 0;
+            }
+            
+            .logo{
+                padding-left:120px;
+                width:40%;
+                position:absolute;
+                float:left;
+            }
+            .navbar{
+                position: absolute;
+                width:80%;
+                
+                padding-left:600px;
+                float:left;
+            
+            }
+
+            .headerul {       
+                font-family: Arial, Helvetica, sans-serif; 
+                font-size: 14px;      
+				list-style: none;       
+                margin:0px;
+                padding: 0;
+                z-index: 0;
+               
+            }     
+            .sub{
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 13px;
+                list-style-type: none;
+                
+                
+                padding: 0;
+                opacity: 0.95;
+                z-index: 1;
+                
+            }
+			.headerul li {       
+				background-color: darkgreen;     	
+				height: 40px;       
+				line-height: 40px;       
+				text-align: center;       
+				width: 100px;     
+			}
+			.headerul li a {       
+				display: block;       
+				text-decoration: none;       
+				color:white;     
+			}     
+			.headerul li a:hover {       
+				background-color: darkgreen;   
+			}     
+			.headerul > li {       
+				       
+				float: left;     
+			}     
+			.sub{       
+				display: none;     
+			}     
+			.headerul > li:hover .sub {    
+                   
+				display: block;     
+			}     
+			.sub li {       
+                background-color:darkgreen;
+                width: 150px;   
+                
+                
+            }
+            .sub li a{
+                display: block;
+                border:1px solid darkgreen ;
+                border-radius: 5px;
+                background-color:darkgreen;
+                
+            }
+            .sub li a:hover{
+                background-color:white;
+                color:darkgreen;
+                position:absolute;
+            } 
+
+            
+           
+
+            
+            .messagelogo{
+                padding-left:120px;
+                font-size: 40px;
+                font-weight: bold;
+                top:0;
+               
+                position:absolute;
+            }
+            .messagelogo2{
+                padding-left:150px;
+                position:absolute;
+                font-size: large;
+                top:10px;
+                font-weight: bold;
+                
+            }
+            .messagelogo3{
+                padding-left:150px;
+                position:absolute;
+                font-size:small;
+                top:30px;
+                
+            }
+           
+            
+            .quicklinksul li{
+                list-style:none;
+                
+                
+                
+            }
+            .quicklinksul{
+                padding-left: 10px;   
+            }
+            
+           
+
+            .mainbody1{
+                position: absolute;
+                top: 60px;
+                left:0px;
+                background-color: white;
+                width:100%;
+                height:60%;
+                
+               
+            }
+            .officeinfo{
+                float:left;
+               width:600px;
+               height:40%;
+               padding-left: 50px;
+               
+                
+            }
+
+            
+
+            .mainbody2{
+                position:absolute;
+                top:700px;
+                left:0;
+                background-color:gray;
+                width:100%;
+                height:80%;
+                
+               
+            }
+
+            .contactusinfo1{
+                float:left;
+                width:500px;
+                height:40%;
+                
+
+        
+                
+            }
+            .quicklinksinfo{
+               
+                float:left;
+               width:300px;
+               height:90%;
+               padding-left: 70px;  
+               
+            }
+            .contactusinfo2{
+                float:left;
+                width:450px;
+                height:40%;
+             }
+
+
+            .facebooklink{
+                float:left;
+                width:500px;
+                
+              
+                
+            }
+
+            .footer{
+                width:100%;
+                background-color:green;
+                color:white;
+                text-align:center;
+                left:0;
+                top:1170px;
+
+
+                position:absolute;
+                height:10%;
+                
+              }
+              
+            .serviceimg{
+                width:40%;
+            }
+            
+            
+            
+
+
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <div class="logo">
+                    <div  class="messagelogo"><strong>S</strong></div>
+                    <div class="messagelogo2">STERLING</div><br>
+                    <div class="messagelogo3">INDUSTRIAL TECHNOLOGIES CO,LTD.</div>
+                </div>
+                <div class="navbar">
+                        <ul class="headerul">
+                            <li><a href="#">Home</a></li>
+                            <li>
+                                <a href="#">About Us &raquo;</a>
+                                <ul class="sub">
+                                    <li><a href="#">Profile</a></li>
+                                    <li><a href="#">Our Structure</a></li>
+                                    <li><a href="#"> Our Commitment</a></li>
+                                </ul>
+
+                            </li>
+                            
+                            <li><a href="#">Services</a></li>
+                            <li><a href="#">Projects&raquo;</a>
+                                <ul class="sub">
+                                    <li><a href="#">Industrial</a></li>
+                                    <li><a href="#">Commercial</a></li>
+                                    <li><a href="#">Construction & Interior</a></li>
+                                    <li><a href="#">Infracture</a></li>
+                                </ul>
+
+                            </li>
+                            <li><a href="#">Activities</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>
+                 </div>       
+           </div>  
+           
+           <div class="mainbody1">
+            <div class="officeinfo" ><br>
+                You are Solution for Industrial Development and Construction in Myanmar.
+
+                <ul>
+
+                    <li style=" list-style:none;">Design & Build</li>
+                    <li  style="list-style:none;;">Turnkey</li>
+                    <li  style=" list-style:none;;">Joint Venture</li>
+                    <li  style="list-style:none;;">Business Consultancy</li>
+                    <li  style="list-style:none;;"> Main Contractor</li>
+                </ul>
+            Whatever we do, wherever are in construction, the impact for time, budget and quality is beyond customer expectation.
+       Projects <br>Projects
+                <ul>
+                    <li style="list-style: disc; float: none;">Construction and Interior</li>
+                    <li  style="list-style: disc; float: none;">Turnkey</li>
+                    <li  style="list-style: disc; float: none;">Industrial</li>
+                    <li  style="list-style: disc; float: none;">Infrastructure</li>
+       
+                </ul>
+            </div>
+
+            <div class="contactusinfo1">
+                <u><b>OUR SERVICE</b></u><br><br>
+                <img src="../pre_intern01/image/1_Service.jpg" class="serviceimg"><br>
+                <img src="../pre_intern01/image/2_Service.jpg" class="serviceimg"><br>
+                <img src="../pre_intern01/image/3_Service.jpg" class="serviceimg"><br>
+                <img src="../pre_intern01/image/4_Services.jpg"class="serviceimg">
+               
+            </div>
+        </div>
+
+            <div class="mainbody2">
+              <br><br>
+                <div class="quicklinksinfo"><span style="text-decoration: underline;text-decoration-color: darkgreen;">QUICK LINKS</span>
+                    <ul class="quicklinksul">
+                        <li>Home</li>
+                        <li>About Us</li>
+                        <li>Services</li>
+                        <li>Projects</li>
+                        <li>Contact</li>
+                    </ul>  
+                </div>
+                
+                <div class="contactusinfo2"><span style="text-decoration: underline;text-decoration-color: darkgreen;">CONTACT US</span><br><br>
+                    <img src="map_location.png"> Room-1008,10<sup>th</sup> Floor,Building-B,50<sup>th</sup> Street Condominium,50<sup>th</sup> Street,Botahtaung Township,Yangon,Myanmar.
+                    <br><img src="phone_icon.png">  (+95)9 45 12 999 88,(+95)9 535 1714<br><img src="mail_icon.png">    info@sterling-myanmar.com
+                </div>
+
+                
+                <div class="facebooklink"><span style="text-decoration: underline;text-decoration-color: darkgreen;">FACEBOOK LINK</span><br><br>
+                    <img style="width:300px "  src="../pre_intern01/image/sterling.jpg">
+                </div>
+
+            </div>
+            <div class="footer">
+                Copyright STERLING MYANMAR.All Right Reserved.I Designed By <span style="text-decoration: underline;text-decoration-color: darkgreen;color:darkcyan">Host Myanmar</span>
+            </div>
+
+
+     </div>
+    </body>
+</html>
